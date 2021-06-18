@@ -6,7 +6,19 @@ import ContactForm from './components/Contact';
 
 function App() {
   const [categories] = useState([
-  
+    {
+      name: 'projects',
+      description: 'Photos of my Coding class projects',
+    },
+    { name: 'portrait', description: 'Self portraits' },
+    {
+      name: 'resume',
+      description: 'My work background'
+    },
+    {
+      name:'Artwork',
+      description: 'My original art page'
+    }
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
