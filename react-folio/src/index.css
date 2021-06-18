@@ -5,10 +5,10 @@ main {
 }
 :root {
   --primary: #b298dc;
-  --secondary: #a663cc;
-  --tertiary: #b9faf8;
-  --light: #b8d0eb;
-  --dark: #6f2dbd;
+  --secondary: #b8d0eb;
+  --tertiary: #a663cc;
+  --light: #b9faf8;
+  --dark: #6f2dbd ;
   --darker: #111111;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -28,13 +28,16 @@ body {
 body {
   margin: 0;
   padding: 0;
-  font-weight: 600;
+  font-weight: lighter;
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background: var(--dark);
+  background-image: url(./assets/cover/Space.PNG);
+  background-size: cover;
+  background-position: auto;
+  background-attachment: scroll;
   color: var(--light);
-  font-family: 'Poiret One', cursive;
+  font-family: "Courier New (monospace)";
 }
 
 h1,
@@ -266,7 +269,7 @@ textarea {
 }
 
 button {
-  background: var(--primary);
+  background: var(--light);
   border: 0;
   border-radius: 5px;
   color: #fff;
@@ -287,5 +290,5 @@ a {
 }
 
 .navActive {
-  color: var(--secondary);
+  color: var(--primary);
 }

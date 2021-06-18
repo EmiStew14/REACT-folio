@@ -1,10 +1,10 @@
 import React from 'react';
-import coverImage from '../../assets/cover/Space.PNG';
+import coverImage from '../../assets/cover/Selfie2.jpg';
 function About() {
   return (
     <section className="my-5">
       <h1 id="about">Who am I?</h1>
-      <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
+      <img src={coverImage} className="my-2" style={{ width: "20%" }} alt="cover" />
       <div className="my-2">
         <p>
         My name is Emily M. Stewart, I am 24 years old and currently live in Tucson, AZ. I was born in California and raised in Alabama for a majority of my life. I was raised in a very diverse and growing family, now consisting of 5 siblings along with my dad and step-mom. 

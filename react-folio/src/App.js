@@ -10,7 +10,6 @@ function App() {
       name: 'projects',
       description: 'Photos of my Coding class projects',
     },
-    { name: 'portrait', description: 'Self portraits' },
     {
       name: 'resume',
       description: 'My work background'
