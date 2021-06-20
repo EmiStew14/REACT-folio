@@ -14,10 +14,6 @@ function App() {
       name: 'resume',
       description: 'My work background'
     },
-    {
-      name:'Artwork',
-      description: 'My original art page'
-    }
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
