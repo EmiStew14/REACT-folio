@@ -3,7 +3,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Gallery from './components/Gallery';
 import ContactForm from './components/Contact';
-import Resume from './components/Resume';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function App() {
   const [categories] = useState([
@@ -39,11 +39,17 @@ function App() {
         ) : (
           <ContactForm></ContactForm>
         )}
-        <Resume></Resume>
       </main>
       <footer>
-      <a href="https://github.com/EmiStew14"><i class="fa fa-github" aria-hidden="true"></i></a>
-      <a href="https://twitter.com/_queenblackshee?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @_queenblackshee</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <div>
+      <a href="https://github.com/EmiStew14"><FontAwesomeIcon icon={["github"]} />Github</a>
+      </div>
+      <div>
+        <a href="www.linkedin.com/in/emily-marie-stewart">linkedin</a>
+      </div>
+      <div>
+      <a href="https://twitter.com/_queenblackshee?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">twitter</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
       </footer>
     </div>
   );

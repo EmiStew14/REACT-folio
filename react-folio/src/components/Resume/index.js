@@ -1,22 +1,23 @@
 import React from 'react';
-import resume from '../../assets/resume/Emily_Stewart_Resume.pdf';
+// import resume from '../../assets/resume/Emily_Stewart_Resume.pdf';
 
-const Modal = ({ onClose, }) => {
-  const { myResume } = resume;
-
+function Resume() {
   return (
-    <div className="modalBackdrop">
-      <div className="modalContainer">
-        <h3 className="modalTitle">Enjoy my Resume! </h3>
-        <a href =
-        {myResume}
-        download></a>
-        <button type="button" onClick={onClose}>
-          Close this modal
-        </button>
+    <section className="my-5">
+      <h1 id="Resume">Experience</h1>
+      <div className="my-2">
+      <a style={{display: "table-cell"}} href="https://drive.google.com/file/d/1hWy15to56F3yPtAq3SxXWQY2crKVLcw1/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume pdf</a>
+        <ul>
+        <li>insert data here</li>
+        <li>insert data here</li> 
+        <li>insert data here</li> 
+        <li>insert data here</li> 
+        <li>insert data here</li> 
+        <li>insert data here</li> 
+        </ul>
       </div>
-    </div>
+    </section>
   );
-};
+}
 
-export default Modal;
+export default Resume;
