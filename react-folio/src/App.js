@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Gallery from './components/Gallery';
 import ContactForm from './components/Contact';
+import Resume from './components/Resume';
 
 function App() {
   const [categories] = useState([
@@ -38,7 +39,12 @@ function App() {
         ) : (
           <ContactForm></ContactForm>
         )}
+        <Resume></Resume>
       </main>
+      <footer>
+      <a href="https://github.com/EmiStew14"><i class="fa fa-github" aria-hidden="true"></i></a>
+      <a href="https://twitter.com/_queenblackshee?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @_queenblackshee</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </footer>
     </div>
   );
 }
