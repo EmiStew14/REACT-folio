@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/REACT-folio/static/css/main.145b4d65.chunk.css",
+    "main.js": "/REACT-folio/static/js/main.23e85523.chunk.js",
+    "main.js.map": "/REACT-folio/static/js/main.23e85523.chunk.js.map",
+    "runtime~main.js": "/REACT-folio/static/js/runtime~main.059acd1d.js",
+    "runtime~main.js.map": "/REACT-folio/static/js/runtime~main.059acd1d.js.map",
+    "static/js/2.f1be6a2a.chunk.js": "/REACT-folio/static/js/2.f1be6a2a.chunk.js",
+    "static/js/2.f1be6a2a.chunk.js.map": "/REACT-folio/static/js/2.f1be6a2a.chunk.js.map",
+    "index.html": "/REACT-folio/index.html",
+    "precache-manifest.a9db03eef97115803889e8fcb233118f.js": "/REACT-folio/precache-manifest.a9db03eef97115803889e8fcb233118f.js",
+    "service-worker.js": "/REACT-folio/service-worker.js",
+    "static/css/main.145b4d65.chunk.css.map": "/REACT-folio/static/css/main.145b4d65.chunk.css.map",
+    "static/media/0.PNG": "/REACT-folio/static/media/0.2199c80d.PNG",
+    "static/media/1.PNG": "/REACT-folio/static/media/1.f90c35ae.PNG",
+    "static/media/10.PNG": "/REACT-folio/static/media/10.0fbe3740.PNG",
+    "static/media/2.PNG": "/REACT-folio/static/media/2.0c28ba76.PNG",
+    "static/media/3.PNG": "/REACT-folio/static/media/3.0b9b8f51.PNG",
+    "static/media/4.PNG": "/REACT-folio/static/media/4.81754b8b.PNG",
+    "static/media/5.PNG": "/REACT-folio/static/media/5.1d095c55.PNG",
+    "static/media/6.PNG": "/REACT-folio/static/media/6.010384f6.PNG",
+    "static/media/7.PNG": "/REACT-folio/static/media/7.4ea1759a.PNG",
+    "static/media/8.PNG": "/REACT-folio/static/media/8.e72338fa.PNG",
+    "static/media/9.PNG": "/REACT-folio/static/media/9.e4f19ed5.PNG",
+    "static/media/Selfie2.jpg": "/REACT-folio/static/media/Selfie2.ff0ed892.jpg",
+    "static/media/index.css": "/REACT-folio/static/media/Space.5d29679b.PNG"
+  }
+}
