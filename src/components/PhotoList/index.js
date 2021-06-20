@@ -9,11 +9,11 @@ const PhotoList = ({ category }) => {
     {
       name: 'AZ 4 Locals',
       category: 'projects',
-      description: '',
+      description: 'A group full stack blog made for local arizonians',
       link:<a href='https://agile-cliffs-08028.herokuapp.com/'>Deployed link</a>
     },
     {
-      name: 'Password Generator',
+      name: 'Safe it Up',
       category: 'projects',
       description: 'To generate a strong password for your social media/daily security needs. Click through prompts to customize the password to your liking, choosing from adding special characters, numbers, lower and upper cased letter ranging from 8-128 characters.',
       link: <a href='https://emistew14.github.io/Safe-it-up/'>Deployed link</a>
@@ -31,22 +31,46 @@ const PhotoList = ({ category }) => {
       link: <a href='https://github.com/EmiStew14/run-buddy.git'>Deployed link</a>
     },
     {
-      name: 'Weather Dashboard',
+      name: 'Whats the Weather like',
       category: 'projects',
       description: 'A website that offers info from different weather API servers to display 5 day forecast weather updates, and the current weather temperature, humidity and windspeed. Also with the feature of clicking previous searches and calling back to their weather outputs.',
       link: <a href='https://emistew14.github.io/whats-the-weather-like/'>Deployed link</a>
     },
     {
-        name: 'Work Planner',
+        name: 'Busy Me',
         category: 'projects',
         description: 'An easy way to keep track of your tasks, this site presents the current date and allows for the user to save, store, and modify tasks for a standard 9-5 work day. Tasks will remain presented even when user refreshes or leaves the page. Time slots are color coded to show tasks happening now (red), past tasks (grey) and tasks coming up (green).',
         link:<a href='https://emistew14.github.io/busy-me/ '>Deployed link</a>
     },
     {
-        name: 'Readme Generator',
+        name: 'Make it Professional',
         category:'projects',
         description:"A professional readme generator.",
         link: <a href='https://github.com/EmiStew14/make-it-professional'>Github</a>
+    },
+    {
+      name:'Anytime Budget',
+      category:'projects',
+      description:"A PWA based Budget tracker, this tracker will allow users to be able to add expenses and deposits to their budget with or without a connection. If the user enters transactions offline, the total will be updated when they're brought back online.",
+      link: <a href='https://serene-bastion-01859.herokuapp.com/'>Deployed link</a>
+    },
+    {
+      name:'Save it for Later',
+      category:'projects',
+      description:"A note saving site that utilizes express.Js capabilities.",
+      link: <a href=" https://boiling-spire-50403.herokuapp.com/ ">Deployed link</a>
+    },
+    {
+      name:'Welcome to banking',
+      category:'projects',
+      description: "An ORM based project that uses Node, sequelize, mySQL, and dotenv package to create a database that holds category,product and tag information and allows for you to edit, create and delete these items.",
+      link: <a href = "https://github.com/EmiStew14/welcome-to-banking">Github</a>
+    },
+    {
+      name: 'Track my Employee',
+      category: 'projects',
+      description: "A node based project that uses mysql to create a database that holds employee information and generates a table to display salaries, departments, and role ids.",
+      link: <a href = "https://github.com/EmiStew14/track-my-employee">Github</a>
     }
   ]);
 

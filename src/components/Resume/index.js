@@ -12,6 +12,8 @@ function Resume() {
         <li>Node.JS</li> 
         <li>NPM packages</li> 
         <li>Express</li> 
+        <li>MongoDB</li>
+        <li>Sequelize</li>
         <li>REACT</li> 
         <li>JEST</li>
         <li>Lighthouse</li>

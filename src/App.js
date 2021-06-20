@@ -9,7 +9,7 @@ function App() {
   const [categories] = useState([
     {
       name: 'projects',
-      description: 'Photos of my Coding class projects',
+      description: 'Photos of my Coding class projects'
     },
     {
       name: 'resume',
@@ -45,7 +45,7 @@ function App() {
       <a href="https://github.com/EmiStew14"><FontAwesomeIcon icon={["github"]} />Github</a>
       </div>
       <div>
-        <a href="www.linkedin.com/in/emily-marie-stewart">Linkedin</a>
+        <a href= "https://www.linkedin.com/in/emily-marie-stewart">Linkedin</a>
       </div>
       <div>
       <a href="https://twitter.com/_queenblackshee?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Twitter</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
