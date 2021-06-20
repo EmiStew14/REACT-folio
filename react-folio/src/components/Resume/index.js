@@ -6,14 +6,21 @@ function Resume() {
     <section className="my-5">
       <h1 id="Resume">Experience</h1>
       <div className="my-2">
-      <a style={{display: "table-cell"}} href="https://drive.google.com/file/d/1hWy15to56F3yPtAq3SxXWQY2crKVLcw1/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume pdf</a>
         <ul>
-        <li>insert data here</li>
-        <li>insert data here</li> 
-        <li>insert data here</li> 
-        <li>insert data here</li> 
-        <li>insert data here</li> 
-        <li>insert data here</li> 
+        <li>Front End Development ( HTML, JS, CSS)</li>
+        <li>Web API/ Server-Side API/ Third-Party APIs</li> 
+        <li>Node.JS</li> 
+        <li>NPM packages</li> 
+        <li>Express</li> 
+        <li>REACT</li> 
+        <li>JEST</li>
+        <li>Lighthouse</li>
+        <li>SQL/ noSQL</li>
+        <li>Object Oriented Placement (OOP)</li>
+        <li>Object Related Mapping (ORM)</li>
+        <li>Full Stack Development</li>
+        <li>Progressive Web Applications (PWA)</li>
+        <li>Technical Writing</li>
         </ul>
       </div>
     </section>

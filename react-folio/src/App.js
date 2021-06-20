@@ -13,7 +13,7 @@ function App() {
     },
     {
       name: 'resume',
-      description: 'My work background'
+      description: <a style={{display: "table-cell"}} href="https://drive.google.com/file/d/1hWy15to56F3yPtAq3SxXWQY2crKVLcw1/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume pdf</a>
     },
   ]);
 
@@ -45,10 +45,10 @@ function App() {
       <a href="https://github.com/EmiStew14"><FontAwesomeIcon icon={["github"]} />Github</a>
       </div>
       <div>
-        <a href="www.linkedin.com/in/emily-marie-stewart">linkedin</a>
+        <a href="www.linkedin.com/in/emily-marie-stewart">Linkedin</a>
       </div>
       <div>
-      <a href="https://twitter.com/_queenblackshee?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">twitter</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <a href="https://twitter.com/_queenblackshee?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Twitter</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       </footer>
     </div>
