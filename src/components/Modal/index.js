@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Modal = ({ onClose, currentPhoto }) => {
-  const { name, description, index , link  } = currentPhoto;
+  const { name, description, index , link, github  } = currentPhoto;
 
   return (
     <div className="modalBackdrop">
@@ -13,6 +13,9 @@ const Modal = ({ onClose, currentPhoto }) => {
         </p>
         <p>
         {link}
+        </p>
+        <p>
+          {github}
         </p>
         <button type="button" onClick={onClose}>
           Close this modal
