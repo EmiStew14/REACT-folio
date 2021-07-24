@@ -47,9 +47,6 @@ function App() {
       <div>
         <a href= "https://www.linkedin.com/in/emily-marie-stewart">Linkedin</a>
       </div>
-      <div>
-      <a href="https://twitter.com/_queenblackshee?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Twitter</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      </div>
       </footer>
     </div>
   );
