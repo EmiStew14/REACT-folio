@@ -13,7 +13,7 @@ function App() {
     },
     {
       name: 'resume',
-      description: <a style={{display: "table-cell"}} href="https://drive.google.com/file/d/1hWy15to56F3yPtAq3SxXWQY2crKVLcw1/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume pdf</a>
+      description: <a style={{display: "table-cell"}} href="https://drive.google.com/file/d/1at8EjSnVapDYc-7A-9Tdl-vbqaoOEJ9_/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume pdf</a>
     },
   ]);
 
